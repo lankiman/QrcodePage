@@ -1,0 +1,45 @@
+body {
+  box-sizing: border-box;
+  overflow: hidden;
+  background-color: hsl(215, 26%, 62%);
+  text-align: center;
+  height: 100vh;
+  font-family: url("https://fonts.google.com/specimen/Outfit");
+}
+.BodyContainer {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+.ContentConatianer {
+  padding-top: 10px;
+  border-radius: 10px;
+  background-color: whitesmoke;
+  height: fit-content;
+  max-width: 240px;
+}
+img {
+  border-radius: 10px;
+  width: 90%;
+  height: auto;
+  object-fit: cover;
+}
+p {
+  font-size: 13px;
+}
+.para {
+  color: hsl(218, 44%, 22%);
+  font-size: 15px;
+  font-weight: 700;
+}
+.para2 {
+  color: hsl(220, 15%, 55%);
+  font-weight: 400;
+}
+@media screen and (max-width: 375px) {
+  .ContentConatianer {
+    width: fit-content;
+  }
+}
