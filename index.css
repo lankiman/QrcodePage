@@ -15,7 +15,7 @@ body {
   align-items: center;
 }
 .ContentConatianer {
-  padding-top: 10px;
+  padding-top: 15px;
   border-radius: 10px;
   background-color: white;
   height: fit-content;
@@ -36,11 +36,11 @@ img {
 }
 .para {
   color: hsl(218, 44%, 22%);
-  font-size: 15px;
+  font-size: 17px;
   font-weight: 700;
 }
 .para2 {
-  font-size: 12px;
+  font-size: 11px;
   color: hsl(220, 15%, 55%);
   font-weight: 400;
 }
